@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+}
+html{
+    background-image:url(./assets/fotoshpaleri-zoryani-vijni-kosmos-2161265301.jpg);
+    background-size: cover;
+   
+}
+
+
+.StarWars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0 0 0;
+}
+
+.child1 {
+  border: 1px solid none;
+  width: 600px;
+  max-width: 650px;
+  min-width: 550px;
+  height: 250px;
+  color: white;
+  background-image: url(./assets/images.jpeg);
+  background-size: 100%;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+}
+.DarthVader {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0px 0px 50px white;
+  margin: -150px 0px -50px 50px;
+  transform: translate(10px, -30px);
+}
+.user-name1 {
+  text-align: left;
+  margin: 10px 5px 10px 300px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.user-pisition1 {
+  text-align: left;
+  margin: 0px 5px 20px 300px;
+  font-size: 20px;
+}
+.user-direction1 {
+  text-align: left;
+  margin: 0px 20px 0px 300px;
+  font-size: 16px;
+}
+.Follow1 {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: rgb(58, 3, 58);
+  font-size: 15px;
+  margin: 3px 0px 0px 300px;
+}
+.Message1 {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: rgb(58, 3, 58);
+  font-size: 15px;
+}
+.icons-child1 {
+  color: white;
+  font-size: 18px;
+  border-radius: 50%;
+  width: 31px;
+  height: 25px;
+  margin: 25px 0px 5px 10px;
+}
+#twitter1 {
+  margin: 0px 0px 5px 300px;
+}
+
+.child2 {
+  border: 1px solid none;
+  width: 600px;
+  max-width: 650px;
+  min-width: 550px;
+  height: 250px;
+  color: white;
+  background-image: url(./assets/images.jpeg);
+  background-size: 100%;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+}
+.Stormtrooper {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0px 0px 50px white;
+  margin: -150px 0px -50px 50px;
+  transform: translate(10px, -30px);
+}
+.user-name2 {
+  text-align: left;
+  margin: 10px 5px 10px 300px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.user-pisition2 {
+  text-align: left;
+  margin: 0px 5px 20px 300px;
+  font-size: 20px;
+}
+.user-direction2 {
+  text-align: left;
+  margin: 0px 20px 0px 300px;
+  font-size: 16px;
+}
+.Follow2 {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: rgb(58, 3, 58);
+  font-size: 15px;
+  margin: 3px 0px 0px 300px;
+}
+.Message2 {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: rgb(58, 3, 58);
+  font-size: 15px;
+}
+.icons-child2 {
+  color: white;
+  font-size: 18px;
+  border-radius: 50%;
+  width: 31px;
+  height: 25px;
+  margin: 25px 0px 5px 10px;
+}
+#twitter2 {
+  margin: 0px 0px 5px 300px;
+}
+
+.child3 {
+  border: 1px solid none;
+  width: 600px;
+  max-width: 650px;
+  min-width: 550px;
+  height: 250px;
+  color: white;
+  background-image: url(./assets/images.jpeg);
+  background-size: 100%;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+}
+.Yoda {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0px 0px 50px white;
+  margin: -150px 0px -50px 50px;
+  transform: translate(10px, -30px);
+}
+.user-name3 {
+  text-align: left;
+  margin: 10px 5px 10px 300px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.user-pisition3 {
+  text-align: left;
+  margin: 0px 5px 20px 300px;
+  font-size: 20px;
+}
+.user-direction3 {
+  text-align: left;
+  margin: 0px 20px 35px 300px;
+  font-size: 16px;
+}
+.Follow3 {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: rgb(58, 3, 58);
+  font-size: 15px;
+  margin: 10px 0px 0px 300px;
+}
+.Message3 {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: rgb(58, 3, 58);
+  font-size: 15px;
+}
+.icons-child3 {
+  color: white;
+  font-size: 18px;
+  border-radius: 50%;
+  width: 31px;
+  height: 25px;
+  margin: 25px 0px 5px 10px;
+}
+#twitter3 {
+  margin: 0px 0px 5px 300px;
+}
+
+
+
+.child4 {
+  border: 1px solid none;
+  width: 600px;
+  max-width: 650px;
+  min-width: 550px;
+  height: 250px;
+  color: white;
+  background-image: url(./assets/images.jpeg);
+  background-size: 100%;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+}
+.Chewbacca {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0px 0px 50px white;
+  margin: -150px 0px -50px 50px;
+  transform: translate(10px, -30px);
+}
+.user-name4 {
+  text-align: left;
+  margin: 10px 5px 10px 300px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.user-pisition4 {
+  text-align: left;
+  margin: 0px 5px 20px 300px;
+  font-size: 20px;
+}
+.user-direction4 {
+  text-align: left;
+  margin: 0px 20px 35px 300px;
+  font-size: 16px;
+}
+.Follow4 {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: rgb(58, 3, 58);
+  font-size: 15px;
+  margin: 10px 0px 0px 300px;
+}
+.Message4 {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 7px;
+  background-color: rgb(58, 3, 58);
+  font-size: 15px;
+}
+.icons-child4 {
+  color: white;
+  font-size: 18px;
+  border-radius: 50%;
+  width: 31px;
+  height: 25px;
+  margin: 25px 0px 5px 10px;
+}
+#twitter4 {
+  margin: 0px 0px 5px 300px;
+}
