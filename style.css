@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
 }
-html{
+body{
     background-image:url(./assets/fotoshpaleri-zoryani-vijni-kosmos-2161265301.jpg);
     background-size: cover;
-   
+    min-height: 100vh;
 }
 
 
-.StarWars {
+.star-wars {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -17,7 +17,6 @@ html{
 }
 
 .child1 {
-  border: 1px solid none;
   width: 600px;
   max-width: 650px;
   min-width: 550px;
@@ -28,7 +27,7 @@ html{
   text-align: left;
   padding: 5px 5px 5px 5px;
 }
-.DarthVader {
+.darth-vader {
   width: 150px;
   height: 150px;
   object-fit: cover;
@@ -44,7 +43,7 @@ html{
   font-size: 30px;
   font-weight: 800;
 }
-.user-pisition1 {
+.user-position1 {
   text-align: left;
   margin: 0px 5px 20px 300px;
   font-size: 20px;
@@ -54,7 +53,7 @@ html{
   margin: 0px 20px 0px 300px;
   font-size: 16px;
 }
-.Follow1 {
+.follow1 {
   color: white;
   text-decoration: none;
   border: 1px solid white;
@@ -64,7 +63,7 @@ html{
   font-size: 15px;
   margin: 3px 0px 0px 300px;
 }
-.Message1 {
+.message1 {
   color: white;
   text-decoration: none;
   border: 1px solid white;
@@ -86,7 +85,6 @@ html{
 }
 
 .child2 {
-  border: 1px solid none;
   width: 600px;
   max-width: 650px;
   min-width: 550px;
@@ -97,7 +95,7 @@ html{
   text-align: left;
   padding: 5px 5px 5px 5px;
 }
-.Stormtrooper {
+.stormtrooper {
   width: 150px;
   height: 150px;
   object-fit: cover;
@@ -113,7 +111,7 @@ html{
   font-size: 30px;
   font-weight: 800;
 }
-.user-pisition2 {
+.user-position2 {
   text-align: left;
   margin: 0px 5px 20px 300px;
   font-size: 20px;
@@ -123,7 +121,7 @@ html{
   margin: 0px 20px 0px 300px;
   font-size: 16px;
 }
-.Follow2 {
+.follow2 {
   color: white;
   text-decoration: none;
   border: 1px solid white;
@@ -133,7 +131,7 @@ html{
   font-size: 15px;
   margin: 3px 0px 0px 300px;
 }
-.Message2 {
+.message2 {
   color: white;
   text-decoration: none;
   border: 1px solid white;
@@ -155,7 +153,6 @@ html{
 }
 
 .child3 {
-  border: 1px solid none;
   width: 600px;
   max-width: 650px;
   min-width: 550px;
@@ -166,7 +163,7 @@ html{
   text-align: left;
   padding: 5px 5px 5px 5px;
 }
-.Yoda {
+.yoda {
   width: 150px;
   height: 150px;
   object-fit: cover;
@@ -182,7 +179,7 @@ html{
   font-size: 30px;
   font-weight: 800;
 }
-.user-pisition3 {
+.user-position3 {
   text-align: left;
   margin: 0px 5px 20px 300px;
   font-size: 20px;
@@ -192,7 +189,7 @@ html{
   margin: 0px 20px 35px 300px;
   font-size: 16px;
 }
-.Follow3 {
+.follow3 {
   color: white;
   text-decoration: none;
   border: 1px solid white;
@@ -202,7 +199,7 @@ html{
   font-size: 15px;
   margin: 10px 0px 0px 300px;
 }
-.Message3 {
+.message3 {
   color: white;
   text-decoration: none;
   border: 1px solid white;
@@ -226,7 +223,6 @@ html{
 
 
 .child4 {
-  border: 1px solid none;
   width: 600px;
   max-width: 650px;
   min-width: 550px;
@@ -237,7 +233,7 @@ html{
   text-align: left;
   padding: 5px 5px 5px 5px;
 }
-.Chewbacca {
+.chewbacca {
   width: 150px;
   height: 150px;
   object-fit: cover;
@@ -253,7 +249,7 @@ html{
   font-size: 30px;
   font-weight: 800;
 }
-.user-pisition4 {
+.user-position4 {
   text-align: left;
   margin: 0px 5px 20px 300px;
   font-size: 20px;
@@ -263,7 +259,7 @@ html{
   margin: 0px 20px 35px 300px;
   font-size: 16px;
 }
-.Follow4 {
+.follow4 {
   color: white;
   text-decoration: none;
   border: 1px solid white;
@@ -273,7 +269,7 @@ html{
   font-size: 15px;
   margin: 10px 0px 0px 300px;
 }
-.Message4 {
+.message4 {
   color: white;
   text-decoration: none;
   border: 1px solid white;
